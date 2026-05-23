@@ -114,7 +114,7 @@ const HomePage = () => {
             </div>
           </div>
 
-          <div className="card sticky top-[calc(6rem+16rem)]">
+          <div className="card sticky top-24">
             <h2 className="text-gold font-bold text-lg mb-4 border-b border-secondary pb-2">تسوق حسب</h2>
             <div className="space-y-1">
               {marketingSections.map((section) => (
@@ -143,7 +143,7 @@ const HomePage = () => {
         </aside>
 
         {/* Main Content - Products Grid */}
-        <div className="flex-1 order-2">
+        <div className="flex-1 order-2 lg:order-2">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-2xl font-bold text-gold">
               {activeSection === 'all' ? 'أحدث المنتجات' : 
