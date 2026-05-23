@@ -96,8 +96,8 @@ const HomePage = () => {
       </section>
 
       <div className="flex flex-col lg:flex-row gap-6">
-        {/* Right Sidebar - Categories */}
-        <aside className="lg:w-64 shrink-0 space-y-4 order-1 lg:order-3">
+        {/* Left Sidebar - Categories */}
+        <<aside className="lg:w-64 shrink-0 space-y-4 order-1 lg:order-1">
           <div className="card sticky top-24">
             <h2 className="text-gold font-bold text-lg mb-4 border-b border-secondary pb-2">الأقسام</h2>
             <div className="space-y-1">
