@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #041C3A;
+    color: #ffffff;
+    direction: rtl;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #041C3A;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #D4AF37;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b8962e;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gold text-primary px-6 py-2 rounded-lg font-bold hover:bg-yellow-500 transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-gold text-white px-6 py-2 rounded-lg hover:bg-gold hover:text-primary transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-card rounded-xl border border-secondary p-4 hover:border-gold transition-colors duration-200;
+  }
+  
+  .input-field {
+    @apply w-full bg-primary border border-secondary rounded-lg px-4 py-3 text-white placeholder-text-secondary focus:border-gold focus:outline-none transition-colors;
+  }
+}
+
+@layer utilities {
+  .text-gold {
+    color: #D4AF37;
+  }
+  
+  .bg-gold {
+    background-color: #D4AF37;
+  }
+  
+  .border-gold {
+    border-color: #D4AF37;
+  }
+}
