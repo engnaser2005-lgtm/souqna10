@@ -8,8 +8,8 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'سوقنا - Souqna',
-        short_name: 'Souqna',
+        name: 'سوقنا - Souqna10',
+        short_name: 'Souqna10',
         description: 'سوق إلكتروني متعدد البائعين',
         theme_color: '#041C3A',
         background_color: '#041C3A',
